@@ -2,5 +2,8 @@
     <string name="app_name">WeatherApp</string>
     <string name="city_name">City Name</string>
     <string name="search">Search</string>
-    <string name="cairo_eg">Cairo, EG</string>
+    <string name="cairo_eg">City, countrie</string>
+    <string name="status">status</string>
+    <string name="max_temp">Max Temp</string>
+    <string name="min_temp">Min Temp</string>
 </resources>

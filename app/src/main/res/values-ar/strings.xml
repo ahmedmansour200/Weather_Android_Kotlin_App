@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ألطقس</string>
+    <string name="city_name">أسم ألمدينة</string>
+    <string name="search">أبحث</string>
+    <string name="cairo_eg">ألمدينة, ألدولة</string>
+    <string name="status">ألحالة</string>
+    <string name="max_temp">أعلي درجة</string>
+    <string name="min_temp">أقل درجة</string>
+</resources>

@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity() {
                         var result = gson.fromJson(response , Weather::class.java)
                         findViewById<TextView>(R.id.temp).text = result.main.temp.toInt().toString()+" ْ C"
                         findViewById<TextView>(R.id.status).text = result.weather[0].description.toString()
-                        findViewById<TextView>(R.id.temp_min).text = "Min Temp: " + result.main.temp_min + "ْ C"
-                        findViewById<TextView>(R.id.temp_max).text = "Max Temp: " + result.main.temp_max + " ْ C"
+                        findViewById<TextView>(R.id.temp_min).text = "Min Temp: " + result.main.temp_min.toInt() + "ْ C"
+                        findViewById<TextView>(R.id.temp_max).text = "Max Temp: " + result.main.temp_max.toInt() + " ْ C"
                         findViewById<TextView>(R.id.address).text = result.name + ", " + result.sys.country
                        },{
                         Toast.makeText(this,"Error in city name", Toast.LENGTH_SHORT).show()
