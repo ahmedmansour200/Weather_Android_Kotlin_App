@@ -1,4 +1,4 @@
-# Weather_mobile_app
+# Weather Android Kotlin App
 د
 ## Description
 This weather application is designed to provide real-time weather information for a given city and country. It uses both the hotline API and an open API to retrieve weather data. The application displays essential weather details, including the city and country name, current temperature, minimum and maximum temperatures, and weather conditions.
